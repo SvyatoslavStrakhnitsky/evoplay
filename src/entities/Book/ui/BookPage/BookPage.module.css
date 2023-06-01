@@ -1,9 +1,9 @@
 .page {
     padding: 2rem 1rem;
     background-size: 100%;
+    min-height: 428px;
     background-image: url('../../../../shared/assets/image/page_mobile.png');
     background-repeat: no-repeat;
-    min-height: 428px;
 }
 
 .page > h1 {
