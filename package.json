@@ -11,8 +11,8 @@
     "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix",
     "lint:css": "npx stylelint \"**/*.css\"",
     "lint:css:fix": "npx stylelint \"**/*.css\" --fix",
-    "predeploy": "npm run build:prod",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build:prod"
   },
   "keywords": [],
   "author": "Strakhnitskyi Sviatoslav <sstrakhnitskyi@gmail.com>",
