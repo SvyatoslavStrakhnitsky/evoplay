@@ -1,0 +1,24 @@
+.control {
+    display: flex;
+    gap: 2rem;
+    height: 48px;
+}
+
+.control > button {
+    display: block;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.control > button:hover {
+    transform: scale(1.05);
+}
+
+.control > button:focus {
+    transform: scale(1.05);
+}
+
+.control.first > button {
+    display: none;
+}

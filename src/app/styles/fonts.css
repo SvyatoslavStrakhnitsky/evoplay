@@ -1,0 +1,7 @@
+@font-face {
+    font-family: Mariupol;
+    src: local('Mariupol'), 
+        url('../../shared/fonts/Mariupol-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

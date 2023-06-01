@@ -1,0 +1,6 @@
+:root {
+    --font-family-main: mariupol;
+    --font-size-main: 0.75rem;
+    --font-line-main: 1rem;
+    --font: var(--font-size-main) / var(--font-line-main) var(--font-family-main)
+}

@@ -1,0 +1,68 @@
+.page {
+    padding: 2rem 1rem;
+    background-size: 100%;
+    background-image: url('../../../../shared/assets/image/page_mobile.png');
+    background-repeat: no-repeat;
+    min-height: 428px;
+}
+
+.page > h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.page > p {
+    text-indent: 1rem;
+}
+
+.page > img {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.pageNumber {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.number {
+    position: absolute;
+    line-height: 1.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #6a6a0d
+}
+
+.left {
+    padding: 1rem;
+}
+
+.right {
+    padding: 1rem;
+}
+
+@media screen and (width >= 700px) {
+    .page {
+        padding-top: 2rem;
+        background-image: url('../../../../shared/assets/icons/cover_layer.svg');
+        background-size: 200%;
+    }
+
+    .pageNumber {
+        bottom: 1rem;
+    }
+
+    .left {
+        padding-left: 3rem;
+    }
+
+    .right {
+        padding-right: 3rem;
+        background-position: 100% 0;
+    }
+}

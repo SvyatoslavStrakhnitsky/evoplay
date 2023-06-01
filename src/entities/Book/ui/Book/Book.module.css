@@ -1,0 +1,27 @@
+.wrapper {
+    min-height: 428px;
+    height: 100%;
+    position: relative;
+}
+
+.wrapper > button {
+    position: absolute;
+    top: 42%;
+    right: -12px;
+    display: block;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.wrapper > button:hover {
+    transform: scale(1.05);
+}
+
+.wrapper > button:focus {
+    transform: scale(1.05);
+}
+
+.book {
+    margin: 0 auto;
+}
