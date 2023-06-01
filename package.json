@@ -2,7 +2,7 @@
   "name": "evoplay",
   "version": "1.0.0",
   "description": "evoplay test task",
-  "homepage": "https://svyatoslavstrakhnitsky.github.io/evoplay",
+  "homepage": "https://SvyatoslavStrakhnitsky.github.io/evoplay",
   "scripts": {
     "start": "webpack server --env port=3000",
     "build:dev": "webpack --env mode=development",
