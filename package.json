@@ -2,7 +2,7 @@
   "name": "evoplay",
   "version": "1.0.0",
   "description": "evoplay test task",
-  "homepage": "https://svyatoslavstrakhnitsky.github.io/evoplay",
+  "homepage": "https://SvyatoslavStrakhnitsky.github.io/evoplay",
   "scripts": {
     "start": "webpack server --env port=3000",
     "build:dev": "webpack --env mode=development",
@@ -11,8 +11,8 @@
     "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix",
     "lint:css": "npx stylelint \"**/*.css\"",
     "lint:css:fix": "npx stylelint \"**/*.css\" --fix",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build:prod"
+    "predeploy": "npm run build:prod",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Strakhnitskyi Sviatoslav <sstrakhnitskyi@gmail.com>",
